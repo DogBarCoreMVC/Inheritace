@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Inheritace
 {
-    class Dog : Animal
+    class Dog : Animal//ทำการสืบทอดคลาสมาจากคลาส Animal (หรือเรียกว่า Inherit) ClassDog คือ supClass
     {
-        public void Goes()
+        public void Goes()//Method ที่เพิ่มมาเอง Class แม่จะไม่สามารถเรียกใช้งานได้
         {
             Console.WriteLine("Woof Woof");
         }

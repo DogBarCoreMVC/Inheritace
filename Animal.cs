@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritace
 {
-    class Animal
+    class Animal//superClass supClass หรือ คลาสลูกจะเรียกใช้งาน ตัวแปรและเมทอด ได้ทุกอย่าง
     {
         public int Id { get; set; }
         public string Name { get; set; }

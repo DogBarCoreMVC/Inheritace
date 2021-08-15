@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Inheritace
 {
-    class ScottishFold : Cat
+    class ScottishFold : Cat//ทำการสืบทอดคลาสมาจากคลาส Cat (หรือเรียกว่า Inherit) ClassScottishFold คือ supClass
     {
-        public void Goes()
+        public void Goes()//Method ที่เพิ่มมาเอง Class แม่จะไม่สามารถเรียกใช้งานได้
         {
             Console.WriteLine("meooooooooooooow!!!");
         }
